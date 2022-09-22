@@ -1,4 +1,5 @@
 import random
+#create strings that we can include in password
 uppercase_letters="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 lowercase_letters=uppercase_letters.lower()
 digits="0123456789"
