@@ -17,6 +17,7 @@ if syms:
 length=20
 amount=10
 for x in range(amount):
+    #join() method takes all items in an iterable and joins them into one string.
     #Chooses k unique random elements from a population sequence or set
     password="".join(random.sample(all,length))
     print(password)
